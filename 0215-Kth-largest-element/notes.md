@@ -2,8 +2,14 @@
 
 -- TODO: not solved
 
-# Solution 1
+## Solution 1
 
 Pop the largest k times and return it, this doesn't solve the problem because we exceed the time limit.
 
-# Solution 2
+## Solution 2
+
+Using quick select, non-recursive, O(n) time complexity on average.
+
+## Solution 3
+
+Using quick select, recursive (uses more space), O(n) time complexity on average
