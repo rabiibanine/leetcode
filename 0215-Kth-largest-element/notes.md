@@ -12,4 +12,8 @@ Using quick select, non-recursive, O(n) time complexity on average.
 
 ## Solution 3
 
+Using quick select, recursive (uses more space + list slicing shallow copies which takes even more space), O(n) time complexity on average
+
+## Solution 4
+
 Using quick select, recursive (uses more space), O(n) time complexity on average
