@@ -1,11 +1,11 @@
 class Solution:
     def twoSum(self, nums, target):
         seen = {}
-        for i in range(len(nums)):
-            if target - nums[i] in seen:
-                return [i, seen[target - nums[i]]]
-            else:
-                seen[nums[i]] = i
+
+        for i, num in enumerate(nums):
+            if target - num in seen:
+                return [i, seen[target - num]]
+            seen[num] = i
 
     def test(self):
         array = [2, 7, 11, 15]
