@@ -1,4 +1,3 @@
-# TODO
 class Solution:
     def subarraySum(self, nums: list[int], k: int) -> int:
         num_of_equal = 0
